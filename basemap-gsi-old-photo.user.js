@@ -3,9 +3,9 @@
 // @name           IITC plugin: GSI map tiles Old Aerial Photos
 // @category       Map Tiles
 // @version        0.0.1
-// @namespace      https://penguin.camp/
-// @updateURL      https://penguin.camp/basemap-gsi-old-photo.user.js
-// @downloadURL    https://penguin.camp/basemap-gsi-old-photo.user.js
+// @namespace      https://github.com/mklyr/gsi-cyber-japan-old/
+// @updateURL      https://github.com/mklyr/gsi-cyber-japan-old/raw/main/basemap-gsi-old-photo.user.js
+// @downloadURL    https://github.com/mklyr/gsi-cyber-japan-old/raw/main/basemap-gsi-old-photo.user.js
 // @description    IITCに国土地理院の過去の航空写真レイヤーを追加します
 // @include        https://*.ingress.com/*
 // @include        http://*.ingress.com/intel*
