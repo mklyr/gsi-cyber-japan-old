@@ -1,5 +1,6 @@
 # gsi-cyber-japan-old
-IITCのベースマップレイヤーに、国土地理院より公開されている昔の航空写真を追加します。
+IITCのベースマップレイヤーに、国土地理院より公開されている昔の航空写真を追加します。<br />
+<a href="https://maps.gsi.go.jp/development/ichiran.html">地理院タイル</a>
 
 # 使い方
 IITCの導入後、<a href="https://github.com/mklyr/gsi-cyber-japan-old/raw/main/basemap-gsi-old-photo.user.js">ここからダウンロードして下さい。</a><br />
