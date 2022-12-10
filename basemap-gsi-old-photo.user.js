@@ -2,19 +2,12 @@
 // @id             iitc-plugin-basemap-gsioldphoto
 // @name           IITC plugin: GSI map tiles Old Aerial Photos
 // @category       Map Tiles
-// @version        0.0.1
-// @namespace      https://github.com/mklyr/gsi-cyber-japan-old/
+// @version        0.0.2
+// @namespace      https://github.com/IITC-CE/ingress-intel-total-conversion
 // @updateURL      https://github.com/mklyr/gsi-cyber-japan-old/raw/main/basemap-gsi-old-photo.user.js
 // @downloadURL    https://github.com/mklyr/gsi-cyber-japan-old/raw/main/basemap-gsi-old-photo.user.js
 // @description    IITCに国土地理院の過去の航空写真レイヤーを追加します
-// @include        https://*.ingress.com/*
-// @include        http://*.ingress.com/intel*
-// @match          https://*.ingress.com/*
-// @match          http://*.ingress.com/intel*
-// @include        https://*.ingress.com/mission/*
-// @include        http://*.ingress.com/mission/*
-// @match          https://*.ingress.com/mission/*
-// @match          http://*.ingress.com/mission/*
+// @match          https://intel.ingress.com/*
 // @grant          none
 // ==/UserScript==
 
@@ -23,7 +16,7 @@ function wrapper(plugin_info) {
     if(typeof window.plugin !== 'function') window.plugin = function() {};
 
     plugin_info.buildName = 'gsi-cyber-japan-oldphoto';
-    plugin_info.dateTimeVersion = '20210517190600';
+    plugin_info.dateTimeVersion = '20221210110100';
     plugin_info.pluginId = 'gsi-cyber-japan-oldphoto';
 
 // use own namespace for plugin
